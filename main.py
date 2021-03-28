@@ -30,3 +30,5 @@ with smart_run(session):
     session.set_do_follow(enabled=True, percentage=60, times=5)
 
     session.like_by_tags(tags=['car', 'машина', 'sportcar', 'ford', 'bmw', 'dodge', 'audi', 'mercedes'], amount=10, skip_top_posts=False)
+
+print('ok')
